@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Home | Okta Developer</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Nav Bar Area -->
+
+		<section class="nav">
+			<div class="wrapper">
+				
+				<div class="content">
+						<div class="logo">
+							<a href="#">
+								<img src="assets/asset 0.svg" alt="img">
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">PRODUCT</a>
+							<a href="#">PRICING</a>
+							<a href="#">BLOG</a>
+							<a href="#">DOCS</a>
+							<a href="#">SUPPORT</a>
+						</div>
+						<div class="sidenav">	
+							<div class="btn">
+								<button class="btn-1">Login</button>
+								<button class="btn-2">Sign Up</button>
+							</div>
+							<div class="icon">
+								<img src="assets/asset 24.svg" alt="">
+							</div>
+						</div>
+				</div>		
+			</div>
+		</section>
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="wrapper">
+				<div>
+					<p class="hero-title">
+						NEVER BUILD AUTH AGAIN
+					</p>
+					<p class="hero-subtitle">
+						Okta adds authentication, authorization, and user 
+						<br>management to your web or mobile app within minutes.
+					</p>
+				</div>
+				<div class="hero-image">
+					<div class="img">
+						<img src="assets/asset 1.svg" alt="" /></div>
+					<div class="code">
+						<pre><code class="language-js">
+					      <span class="green">let</span> oktaSignIn = <span class="green">new</span> OktaSignIn({
+					        baseUrl: orgUrl,
+					        clientId: cid,
+					        logo: <span class="blue">'/images/logo.png'</span>,
+					        language: <span class="blue">'en'</span>,
+					        redirectUri: <span class="blue">'https://empire.gov/auth-code'</span>,
+					        authParams: {
+					          responseType: <span class="blue">'code'</span>,
+					          scopes: <span class="blue">['openid']</span>
+					        }
+					      });
+
+					      <span class="green">function </span> <span class="red">renderWidget()</span> {
+					        oktaSignIn. <span class="red">renderEl</span>({
+					          el: <span class="blue">'#widget-div'</span>
+					        },
+					        function success(res) {
+					          console. <span class="red">log</span>(res.user);
+					        });
+					      }
+
+					      window.onload = renderWidget;
+						    </code>
+						</pre>
+					</div>
+				</div>
+				<div class="sign-up">
+					<button class="btn-2">
+						Create Free Account
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- WHAT WE DO -->
+		<section class="what-we-do">
+			<div class="wrapper">				
+				<div class="background">
+					<div class="style-img">
+						<img src="assets/asset 11.png" alt="" width="1510px">
+					</div>
+					<div class="services">
+						<p class="text">What we do</p>
+					</div>
+					<div class="row">
+						<div class="column-4">
+							<div class="block-image" clearfix>
+								<img src="assets/asset 2.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>Authentication</h3>
+								<p>Quickly add secure user authentication to your app with passwords or tokens.</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 3.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>Authorization</h3>
+								<p>
+									Use fine-grained permissions and intelligently control user access based on factors like geo, IP, device, and historical patterns in behavior.
+								</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 4.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>AD/LPAD</h3>
+								<p>
+									Sync existing on-prem or cloud AD/LDAP accounts to Okta and easily connect your users to new services.
+								</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 5.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>Token Authentication</h3>
+								<p>
+									Sync existing on-prem or cloud AD/LDAP accounts to Okta and easily connect your users to new services.
+								</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 6.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>OpenID Connect</h3>
+								<p>
+									Okta supports OpenID Connect for building authentication into your application.
+								</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 7.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>Single Sign-On</h3>
+								<p>
+									Create a better user experience with SAML-based single sign-on using Okta and third party providers.
+								</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 8.svg" alt="">
+							</div>
+							<div class="block-content">
+								<h3>Multi-Factor Authentication</h3>
+								<p>
+									Enhance security with a second (or third) factor, like SMS, Yubikey, voice, one-time passcodes, or Okta Verify with Push. 
+								</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 9.svg" alt="">
+							</div>
+							<div class="block-content">
+							<h3>Social Login</h3>
+							<p>
+								Rich user profiles and authorization with credentials from popular platforms like Google, LinkedIn, Microsoft, and Facebook.
+							</p>
+							</div>
+						</div>
+						<div class="column-4">
+							<div class="block-image">
+								<img src="assets/asset 10.svg" alt="">
+							</div>
+							<div class="block-content">
+							<h3>Complete Docs & SDKsn</h3>
+							<p>
+								We make your life easier with great docs, integrations, samples, and SDKs.
+							</p>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		</section>
+
+		<!-- CUSTOMERS -->
+		<section class="customers">
+			<div class="wrapper">
+			<div class="our-customers">
+				<div class="customer-title">
+					<h1>Customers</h1>
+				</div>
+				<div class="brands">
+					<div class="brand-image">
+						<img src="assets/asset 12.png" alt="">
+					</div>
+					<div class="brand-image">
+						<img src="assets/asset 13.png" alt="">
+					</div>
+					<div class="brand-image">
+						<img src="assets/asset 14.png" alt="">
+					</div>
+					<div class="brand-image">
+						<img src="assets/asset 15.png" alt="">
+					</div>
+					<div class="brand-image">
+						<img src="assets/asset 16.png" alt="">
+					</div>
+					<div class="brand-image">
+						<img src="assets/asset 17.png" alt="">
+					</div>
+					<div class="brand-image">
+						<img src="assets/asset 18.png" alt="">
+					</div>
+				</div>
+
+			</div>
+	<div class="wrapper">
+		
+		</section>
+	</div>
+
+		<!-- Blog -->
+		<section class="blog">
+	<div class="wrapper">
+					<div class="background">
+				<img src="assets/asset 11.png" width="1510px">
+			</div>
+			<div class="customer-title">
+				<h2>From the Blog</h2>
+			</div>
+			<div class="card">
+				<div class="card-1 ">
+					<a>
+						<h3 class="space">Authorizng StormTroppers </h3>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptas, quos.
+						</p>
+						<span class="cta">
+							Jump into details	
+						</span>
+					</a>
+				</div>
+				<div class="card-1">
+					<a>
+						<h3 class="space">Progress to PWA </h3>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptas, quos.
+						</p>
+						<span class="cta">
+							Find out more
+						</span>
+					</a>
+				</div>
+				<div class="card-1">
+					<a>
+						<h3 class="space">Getting Started with OIDC </h3>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptas, quos.
+						</p>
+						<span class="cta">
+							Read the key concepts					
+						</span>
+					</a>
+				</div>
+				<div class="card-1">
+					<a>
+						<h3 class="space">Working with OIDC </h3>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptas, quos.
+						</p>
+						<span class="cta">
+							Learn more
+							
+						</span>
+						
+					</a>
+				</div>
+			</div>
+		</section>		
+	</div>
+
+	<div class="wrapper">
+		<!-- Footer -->
+		<section class="footer">
+			<div class="spacing">
+				<div class="name">
+					<h2>OKTA</h2>
+					<h4 class="text-gray">VISIT OKTA.COM</h4>
+				</div>
+				<div class="social-icons">
+					<div class="f-text">
+						Social
+					</div>
+					<div class="text-gray">
+						<i class="fa fa-github icon">GITHUB</i>
+						<i class="fa fa-twitter icon">TWITTER</i>
+						<i class="fa fa-comments-o icon">FORUM</i>
+						<i class="fa fa-rss icon">RSS BLOG</i>
+					</div>
+				</div>
+				<div class="more">
+					<div class="f-text">
+						More Info
+					</div>
+					<div class="text-gray">
+						<a href="#">INTEGRATE WITH OKTA</a>
+						<a href="#">BLOG</a>
+						<a href="#">RELEASE NOTE</a>
+						<a href="#">3RD PARTY NOTES</a>
+					</div>
+				</div>
+				<div class="contact">
+					<div class="f-text">
+						Contact And Legal
+					</div>
+					<div class="text-gray">
+						<a href="">CONTACT SALES</a>
+						<a href="">CONTACT SUPPORT</a>
+						<a href="">TERMS AND CONDITIONS</a>
+						<a href="">PRIVACY POLICY</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+</body>
+</html>

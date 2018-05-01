@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #20313b;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	max-width: 1990px;
+	width: 95%;
+	margin: 0 auto;
+}
+.nav {
+	background-color: #20313b;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+}
+.content {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	padding: 1em 2em;
+	background-color: #20313b;
+	opacity: 3em;
+	z-index: 1;
+
+}
+.logo {
+	width: 7%;
+}
+.item {
+	font-size: 15px;
+	padding: .4em .4em;
+	
+}
+.item a {
+	text-decoration: none;
+	color: #fff;
+	padding: 1em 0.5em;
+}
+.sidenav {
+	margin-left: 25%;
+	padding: 0 2em;
+	display: flex;
+}
+.btn {
+	cursor: pointer;
+	line-height: 41px;
+	text-align: center;
+	letter-spacing: 2px; 
+}
+.btn-1 {
+	background-color: #20313b;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px 28px;
+    margin: 0 2em;
+    border: 2px #e22866 solid;
+    border-radius: 3px;
+}
+.btn-2 {
+	background-color: #e22866;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px 0px;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 31px;
+    border: 1px;
+    border-radius: 3px;
+}
+.icon {
+	margin: 0.6em 1em;
+}
+
+/*Hero Section*/
+.hero {
+	padding: 10em 3em;
+}
+.hero-title {
+	font-size: 49px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 600;
+}
+.hero-subtitle {
+	font-size: 20px;
+	line-height: 30px;
+	color: #d2d2d6;
+	text-align: center;
+}
+.hero-image {
+	display: flex;
+	justify-content: center;
+	margin: 6em 0;
+}
+.img {
+	background-color: #222;
+	padding: 2em 1em;
+
+}
+pre code {
+	white-space: pre-line;
+}
+.code {
+	background-color: #ffffff;
+	color: #333333;
+	padding: 2em 4em;
+}
+
+.sign-up {
+	display: flex;
+	justify-content: center;
+}
+
+/*SPANS*/
+.red {
+	color: #e22866;
+}
+.blue {
+	color: #115d8b;
+}
+.green {
+	color: #4cbf9c;
+}
+
+/*What we do*/
+.what-we-do{
+	background-color: #153b56;
+	padding-bottom: 3em;
+	
+}
+.text {
+	color: #fff;
+	font-size: 44px;
+	text-align: center;
+	line-height: 64px;
+}
+.row {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 20px;
+	margin: 3em 1em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.column-4 {
+	padding: 1em 3em;
+	position: relative;
+	display: flex;
+}
+.block-image {
+	padding: 1em 1em;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*CUSTOMERS*/
+
+.customer-title {
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+}
+.brands {
+	display: flex;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+}
+.brand-image {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	height: 20%;
+	width: 15%;
+	margin: 2em 3em;
+}
+
+/*BLog*/
+.blog {
+	background-color: #153b56;
+	padding-bottom: 4em;
+}
+.card {
+	color: #ffffff;
+	text-decoration: none;
+	display: flex;
+}
+
+.card-1 {
+	margin: 3em 4em;
+	padding: 3em 2em;
+	height: 20 rem;
+	text-align: left;
+	background-color: #142430;
+}
+.card-1 a {
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 400;
+}
+.card-text {
+	color: #a8a8a8;
+	padding: 2em 0;
+
+}
+.cta {
+	color: #e22866;
+}
+
+.space {
+	padding: 6px 0;
+}
+
+
+/*FOOTER SECTION*/
+.footer {
+	margin: 4em;
+}
+.spacing {
+	display: flex;
+}
+.f-text {
+	color: #fff;
+	font-size: 20px;
+	padding: 1em 1em ;
+}
+.text-gray {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.more {
+	text-decoration: none;
+}
+
